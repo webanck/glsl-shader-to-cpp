@@ -1,3 +1,9 @@
 [submodule "extern/CxxSwizzle"]
 	path = extern/CxxSwizzle
 	url = https://github.com/gwiazdorrr/CxxSwizzle
+[submodule "extern/shader-null-scattering-framework"]
+	path = extern/shader-null-scattering-framework
+	url = https://github.com/webanck/shader-null-scattering-framework
+[submodule "extern/shader-triangle-cut"]
+	path = extern/shader-triangle-cut
+	url = https://github.com/webanck/shader-triangle-cut
