@@ -1,11 +1,13 @@
 #include "glsl_sandbox.h"
-#include "image.hpp"
 
 using namespace glsl_sandbox;
 
 int main(int argc, char ** argv)
 {
-	write_image("frame.png");
+	sampler2D image(sampler2D::WrapMode::Clamp, uvec2(iResolution));
+	render(image, mainImage);
+	
+	write(image, "frame.png");
 	
 	return 0;
 }
